@@ -2,7 +2,7 @@
 
 This project is a full-stack real estate investment analysis platform built for investors evaluating residential properties for ADU and DADU potential. It combines map-based market exploration, API-backed property search, shortlist comparison, and financial underwriting in a single workflow.
 
-From a portfolio standpoint, the project demonstrates product-focused frontend engineering, backend API design, geospatial UX, cloud infrastructure, and deployment automation.
+This project demonstrates product-focused frontend engineering, backend API design, geospatial UX, cloud infrastructure, and deployment automation.
 
 ## Product Summary
 
@@ -26,6 +26,9 @@ The goal is to turn early-stage property discovery into a more structured invest
 - Django REST API backed by Supabase-hosted PostgreSQL data.
 - Terraform-managed AWS and Kubernetes deployment model.
 
+<details>
+<summary><strong>Frontend</strong></summary>
+
 ## Frontend
 
 The frontend is built in `real-estate-dash-remade` with Next.js 15, React 19, TypeScript, Tailwind CSS, Radix UI, Leaflet, and React Query.
@@ -41,6 +44,11 @@ Key implementation highlights:
 
 This part of the project demonstrates frontend architecture, state management, responsive UI composition, and geospatial interaction design.
 
+</details>
+
+<details>
+<summary><strong>Backend</strong></summary>
+
 ## Backend
 
 The backend is built in `real-estate-backend-remade` with Django 5.2, Django REST Framework, PostgreSQL connectivity, and Supabase integration.
@@ -55,6 +63,11 @@ Core backend capabilities:
 
 The scoring logic combines population growth, tax sensitivity, and ADU signal detection from listing content, showing how domain-specific business rules can be translated into usable product features.
 
+</details>
+
+<details>
+<summary><strong>Infrastructure</strong></summary>
+
 ## Infrastructure
 
 The `iac` directory contains a Terraform-based AWS deployment layer built around EKS and Kubernetes.
@@ -68,6 +81,11 @@ Highlights:
 
 This demonstrates practical infrastructure design, environment separation, container deployment, and Kubernetes-based application delivery.
 
+</details>
+
+<details>
+<summary><strong>Tooling and Delivery</strong></summary>
+
 ## Tooling and Delivery
 
 The project includes:
@@ -76,6 +94,8 @@ The project includes:
 - Local Docker Compose support for backend development.
 - Visible GitHub Actions for code quality and PR process checks.
 - A Terraform secret and environment contract that is clearly shaped for GitHub-driven AWS deployment.
+
+</details>
 
 ## Skills Demonstrated
 
@@ -88,7 +108,7 @@ The project includes:
 - Terraform-based AWS and Kubernetes infrastructure.
 - EKS deployment patterns with secrets, image tags, TLS support, and cluster reuse.
 
-## Portfolio Value
+## Project Value
 
 This project reflects more than feature implementation. It shows the ability to build a complete decision-support product: one that connects business logic, user workflow, data systems, and cloud infrastructure into a coherent real-world application.
 
@@ -98,7 +118,7 @@ This project reflects more than feature implementation. It shows the ability to 
 
 This application is more than a CRUD demo. It combines product thinking, spatial data, financial analysis, and cloud deployment into a workflow that mirrors how investors actually evaluate opportunities. It demonstrates the ability to build not just isolated features, but an integrated decision-support system with clear business value.
 
-For a portfolio, that means this project shows competency in:
+At a delivery level, this project shows competency in:
 
 - Building a polished user-facing experience.
 - Structuring a backend around real data and usable APIs.
