@@ -1,4 +1,6 @@
-# Real Estate ADU/DADU Investment Evaluation Platform
+
+
+#   Real Estate ADU/DADU Investment Evaluation Platform
 
 This project is a full-stack real estate investment analysis platform built to help investors identify residential properties with strong ADU and DADU potential. The application combines geospatial browsing, API-backed property data, portfolio-style comparison workflows, and financial modeling so a user can move from market discovery to deal evaluation in a single system.
 
