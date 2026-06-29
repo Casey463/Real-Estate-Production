@@ -108,19 +108,14 @@ The project includes:
 - Terraform-based AWS and Kubernetes infrastructure.
 - EKS deployment patterns with secrets, image tags, TLS support, and cluster reuse.
 
-## Project Value
-
-This project reflects more than feature implementation. It shows the ability to build a complete decision-support product: one that connects business logic, user workflow, data systems, and cloud infrastructure into a coherent real-world application.
-
-- CI quality checks and workflow governance through GitHub Actions.
-
 ## Why This Project Matters
 
-This application is more than a CRUD demo. It combines product thinking, spatial data, financial analysis, and cloud deployment into a workflow that mirrors how investors actually evaluate opportunities. It demonstrates the ability to build not just isolated features, but an integrated decision-support system with clear business value.
+This project is more than a CRUD demo. It combines product thinking, spatial data, financial analysis, and cloud delivery into a workflow that mirrors how investors evaluate opportunities in practice. The result is an end-to-end decision-support application that connects business logic, user workflow, data systems, and infrastructure in one coherent product.
 
-At a delivery level, this project shows competency in:
+At a delivery level, this work demonstrates competency in:
 
 - Building a polished user-facing experience.
 - Structuring a backend around real data and usable APIs.
 - Designing cloud infrastructure that can scale beyond local development.
 - Translating business use cases into technical workflows end to end.
+- Maintaining code quality and team workflow standards through CI checks.
